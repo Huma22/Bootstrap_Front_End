@@ -1,0 +1,59 @@
+.video-player .aks-video-player {
+    width: auto !important;
+}
+
+.video-data h2 {
+    font-weight: 900;
+    font-family: 'Roboto-black';
+}
+
+.video-card .video-thumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: 0px 0px 3px 1px #00000030;
+    background-size: cover !important;
+    min-height: 8rem;
+    max-height: 8rem;
+}
+
+.video-card .video-thumb .aks-vp-start {
+    width: 3rem;
+    height: 3rem;
+}
+
+.video-card .video-thumb .aks-vp-start svg {
+    width: 26px !important;
+}
+
+.video-card .video-data p {
+    font-weight: 600;
+    font-family: 'Jost';
+    font-size: 17px;
+}
+
+.video-card.video-mega-card .video-data p {
+    font-weight: 400;
+}
+
+.duration {
+    margin-top: -23px;
+    margin-right: 5px;
+    font-size: 13px;
+    font-family: jost;
+}
+
+.video-player .aks-video-player {
+    width: auto !important;
+    min-height: 34rem !important;
+}
+
+.playlist {
+    overflow: hidden;
+    max-height: 46rem;
+}
+
+.h-full {
+    max-height: none !important;
+}
